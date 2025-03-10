@@ -117,4 +117,59 @@
     color: #FFFFFF;
   
   }
+  .btn-don{
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 46px;
+    background-color: #111111;
+    color: #FFFFFF;
+    padding: 16px 40px;
+
+
+  }
+  
+
+  
+  .banner-img{
+    height: 580px;
+    width: 50%;
+    background-image: url(../images/Images\ 2.png);
+   background-repeat: no-repeat;
+   background-position: center;
+  background-color: #000;
+  margin-right: 190px;
+  }
+  
+ 
+  .ball{
+    width: 25px;
+    height: 25px;
+    background-color: #E6533C;
+    border-radius: 50%;
+  }
+  .btn-span{
+    width: 200px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;   
+    padding: 12px 24px;
+    display: grid;
+    grid-template-columns: repeat(1,0fr);
+    
+
+  }
+  #button-top{ 
+    
+    
+    
+   
+  }
+  #button-left{
+    margin-left: -100px;
+     
+  }
   
