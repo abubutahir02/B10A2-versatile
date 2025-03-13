@@ -143,9 +143,11 @@
   }
   
   .banner-img{
-   
+   height: 580px;
+   width: 349px;
    padding-right: 125px;
    position: relative;
+   
   }
   
   .ball{
@@ -193,6 +195,7 @@
     padding: 10px 20px;
   }
   .header{
+    
   }
   .nav{
     display: none;
@@ -217,17 +220,17 @@
   display: grid;
   grid-template-columns: repeat(1,1fr);
   gap: 0px;
+  
 
 
 }
 .banner-box{
-  padding: 30px 30px;
-  margin: 0px 0px;
+  padding: 12px 0px;
+  margin: 0px;
 } 
 .banner-img{
   padding: 0px;
   margin: auto;
- 
 }
 .btn-primary,.btn-don{
   padding: 10px 20px;
