@@ -195,6 +195,7 @@
     padding: 10px 20px;
   }
   .header{
+    width: 100%;
     
   }
   .nav{
@@ -225,12 +226,16 @@
 
 }
 .banner-box{
-  padding: 12px 0px;
+  padding: 12px 10px;
   margin: 0px;
 } 
 .banner-img{
+  width: 100%;
   padding: 0px;
   margin: auto;
+}
+.banner-img img{
+  
 }
 .btn-primary,.btn-don{
   padding: 10px 20px;
@@ -243,7 +248,9 @@
 }
 #button-left{
   position: absolute;
-  right: 0px;
+  right: 5px;
+ 
+
 }
 #button-top{
   position: absolute;
