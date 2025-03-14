@@ -71,11 +71,12 @@
   
 }
   .header{
-    background-image: linear-gradient(rgba(17, 17, 17, 1),rgba(112, 112, 112, 0.5),rgba(119, 119, 119, 0));
+    background-image: linear-gradient(rgba(17, 17, 17, 1),rgba(112, 112, 112, 0.4),rgba(119, 119, 119, 0));
     position: relative;
     width: 100%;
    height: 100%;
-    z-index: 9;
+   
+    margin-bottom: 100px;
   }
   .navbar{
     display: flex;
@@ -83,7 +84,7 @@
     align-items: center;
     height: 38px;
     padding: 20px 100px;
-    z-index: 4;
+   
    
   }
   nav> ul li{
@@ -186,6 +187,43 @@
    text-align: center;
      
   }
+  /* habits styles */
+  .your-habits{
+    width: 100%;
+  }
+  .habits{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .habits-title{
+    padding-bottom: 15px;
+  }
+  .habits-pactis{
+    margin-top: 20px;
+    margin-bottom: 48px;
+
+  }
+  
+  .habits-pactis img{
+    border-radius: 50%;
+    
+   
+  }
+  .habits-pactist{
+    padding: 16px;
+
+  }
+  .habits-pactist-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+  }
+  .habits-learn{
+    gap: 40px;
+  }
 
 /* media quary */
   @media screen and (max-width: 576px) {
@@ -245,15 +283,16 @@
 .btn-primary,.btn-don{
   padding: 10px 20px;
 }
+
 .btn-span{
   width: 150px;
   height: 80px;
   border-radius: 22px;
-  padding: 5px;
+  padding: 0px;
 }
 #button-left{
   position: absolute;
-  right: 5px;
+  right: 0px;
  
 
 }
@@ -262,6 +301,20 @@
   left: 0px;
   bottom: 80px;
   }
+  /* habits-learn */
+  .habits-learn{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+  }
+  .habits-pactis{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+  .habits-pactist{
+    padding: 0px;
+
 }
 
 
