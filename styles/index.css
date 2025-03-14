@@ -66,14 +66,15 @@
     margin: 4px 0;
 }
 .dark-1{
+ 
+ 
   
-  background-color: rgba(129, 127, 127, 0.1);;
-  opacity: 1;
 }
   .header{
+    background-image: linear-gradient(rgba(17, 17, 17, 1),rgba(112, 112, 112, 0.5),rgba(119, 119, 119, 0));
     position: relative;
     width: 100%;
-    height: 715px;
+   height: 100%;
     z-index: 9;
   }
   .navbar{
@@ -96,6 +97,9 @@
   .nav{
     display: flex;
     gap: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 39px;
     
   }
   .home{
@@ -117,7 +121,7 @@
   }
   .banner-box{
     max-width: 100%;
-    height: 400px;
+    
     text-align: start;
     padding: 10px 97px;
    
@@ -151,21 +155,21 @@
   }
   
   .ball{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     background-color: #E6533C;
     border-radius: 50%;
   }
   .btn-span{
    
-    width: 175px;
+    width: 160px;
     height: 100px;
-    border-radius: 22px;
+    border-radius: 12px;
     background-color: rgba(48, 48, 48, 0.54);
     align-items: center;
     justify-content: center;
     text-align: left;
-    gap: 40px;   
+    gap: 12px;   
     padding: 8px 10px;
   }
   #button-top{
@@ -226,7 +230,8 @@
 
 }
 .banner-box{
-  padding: 12px 10px;
+  
+  padding: 45px 20px;
   margin: 0px;
 } 
 .banner-img{
