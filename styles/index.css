@@ -224,6 +224,37 @@
   .habits-learn{
     gap: 40px;
   }
+  /* extra-pactis */
+ 
+  .extra-pactis{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    height: 300px;
+    gap: 150px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 8px;
+    margin-left: 110px;
+    margin-bottom: 90px;
+    padding: 40px;
+  }
+  .extra-pactis img{
+    width: 360px;
+    height: 300px;
+   
+    border-radius: 10%;
+
+  }
+  .extra-pactis-box{
+   padding: 0px 0px;
+   width: 443px;
+   
+    
+  }
+  .extra-pactis-title{
+    padding-bottom: 10px;
+
+  }
 
 /* media quary */
   @media screen and (max-width: 576px) {
@@ -314,6 +345,42 @@
   }
   .habits-pactist{
     padding: 0px;
+
+}
+.extra-pactis{
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 500px;
+  border-radius: 22px;
+  margin: auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+.extra-pactis img{
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+  }
+  .extra-pactis-title{
+   font-size: 2rem;
+
+  }
+  .extra-pactis-box{
+    width: 287px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+  }
+  .extra-pactis img{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+  }
 
 }
 
