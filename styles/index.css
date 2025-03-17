@@ -26,7 +26,7 @@
   }
   .all-title{
     font-weight: 700;
-    font-size: 2.50rem;
+    font-size: 2.30rem;
     color: #FFFFFF;
   }
   body{
@@ -41,7 +41,7 @@
     font-size: 0.80rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 48px;
+    padding-bottom: 18px;
   }
   .btn-primary{
     font-weight: 600;
@@ -232,7 +232,7 @@
     width: 80%;
     height: 300px;
     gap: 150px;
-    background-color: rgba(48, 48, 48, 0.54);
+    background-color: #3E3E3E;
     border-radius: 8px;
     margin-left: 110px;
     margin-bottom: 90px;
@@ -248,13 +248,101 @@
   .extra-pactis-box{
    padding: 0px 0px;
    width: 443px;
-   
-    
   }
   .extra-pactis-title{
     padding-bottom: 10px;
-
   }
+/* bmi-Calculator{ */
+  table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-collapse: collapse;
+    padding: 5px 6px;
+    
+  }
+  table{
+    width: 313px;
+    height: 216px;
+    border-radius: 3px;
+  }
+  th{
+    text-align: left;
+    height: 30px;
+    font-size: 14px;
+    font-weight:400;
+    color: #FFFFFF;
+  }
+  td{
+    text-align: left;
+    height: 30px;
+    font-size: 14px;
+    font-weight:400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .bmi-Calculator{
+    background-color: #3E3E3E;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    gap: 120px;
+    padding: 60px;
+    margin-bottom: 90px;
+   
+  }
+  .bmi-Calculator-chart{ 
+  
+    
+    
+  } 
+ .calculate-your-bmi-title{
+  margin: 24px 0px 42px 0px;
+ }
+  .calculate-your-bmi{
+    width: 577px;
+   
+
+  }     
+  input{
+    padding: 10px 50px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin: 3px;
+    border: none;
+    text-align: left;
+  }
+  .select{
+    padding: 10px 100px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin: 5px 0px;
+  }
+  .select > option{
+    padding: 5px 60px;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin: 5px 0px;
+  }
+  .select-1{
+    padding: 10px 190px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin: 5px;
+  }
+  .bmi-Calculator-chart-title{
+    margin: 24px 0px 42px 0px;
+  }
+  form{
+    margin-top: 22px;
+  }
+  table{
+    margin-top: 22px;
+  }
+                                                            
+                                                                                                                                                                                                                                                                                                                
 
 /* media quary */
   @media screen and (max-width: 576px) {
@@ -339,6 +427,7 @@
     gap: 10px;
   }
   .habits-pactis{
+    gap: 12px;
     margin-top: 0px;
     margin-bottom: 0px;
 
@@ -351,11 +440,11 @@
   grid-template-columns: repeat(1,1fr);
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   height: 500px;
   border-radius: 22px;
-  margin: auto;
-  margin-bottom: 40px;
+ 
+  margin: 40px 20px 40px 20px;
   position: relative;
 }
 .extra-pactis img{
@@ -380,6 +469,59 @@
     position: absolute;
     bottom: 40px;
     left: 30px;
+  }
+  .bmi-Calculator{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding-left: auto;
+   
+  }
+  .calculate-your-bmi{
+    width: 100%;
+  }
+  .bmi-Calculator-titlel{
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .habitss{
+    text-align: left;
+    margin-left: 20px;
+  }
+  .description.{
+    width: 350px;
+  }
+  input{
+    padding: 6px 10px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin: 5px;
+    border: none;
+    text-align: left;
+  }
+  .select{
+    padding: 6px 60px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin: 5px 5px;
+  }
+  .select > option{
+    padding: 6px 60px;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    
+  }
+  .select-1{
+    padding: 6px 110px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    margin: 5px;
   }
 
 }
