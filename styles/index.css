@@ -340,17 +340,23 @@
     margin-top: 22px;
   }
   /* meet-our-team */
+.Meet-Our-Teams{
+  margin-bottom: 90px;
+  position: relative;
+}
   .meet-our-team{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: #3E3E3E;
     width: 80%;
     height: 584px;
-    grid-gap: 0px;
+   margin: 20px 100px 20px 80px;
     padding-top: 30px;
     padding-left: 30px;
-    position: absolute;
+    /* position: absolute;
+    top: 222px;
     left: 125px;
+    bottom: 5px; */
 
   }
   .meet-our-team-box{
@@ -619,12 +625,11 @@
    height: 1620px;
     grid-gap: 0px;
     padding-top: 20px;
-    padding-left: 20px;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    margin: 5px;
-    margin-right: 10px;
+    padding-left: 10px;
+    /* padding-right: 10px; */
+    padding-right: 10px;
+   margin-left: 5px;
+    margin-right: 5px;
 }
   }
 
