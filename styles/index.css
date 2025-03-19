@@ -339,6 +339,50 @@
   form{
     margin-top: 22px;
   }
+  /* meet-our-team */
+  .meet-our-team{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #3E3E3E;
+    width: 80%;
+    height: 584px;
+    grid-gap: 0px;
+    padding-top: 30px;
+    padding-left: 30px;
+    position: absolute;
+    left: 125px;
+
+  }
+  .meet-our-team-box{
+     position: relative;
+     width: 326px;
+     height: 252px;
+     /* padding: 30px 0px 10px 10px; */
+     margin: 0px;
+  } 
+  .meet-our-team-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px; 
+   
+    
+  }
+  .meet-our-team-box-img{
+     position: absolute;
+     left: 15px;
+     bottom: 15px;
+  }
+  .meet-our-team-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+  }
+
+
+
+
+
+
 /* media quary */
   @media screen and (max-width: 576px) {
     .hamburger {
@@ -567,8 +611,22 @@
     border-radius: 7px;
     margin: 5px;
   } 
-
+  .meet-our-team{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #3E3E3E;
+    width: 95%;
+   height: 1620px;
+    grid-gap: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 5px;
+    margin-right: 10px;
 }
+  }
 
 
 
